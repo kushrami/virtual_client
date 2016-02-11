@@ -111,7 +111,7 @@ def send_mail():
         to_email = mail_id          #raw_input('Recipient: ')
         servername = "smtp.gmail.com"
         username = "dippatel1994@gmail.com"
-        password = "adgjmptwismypassword"#getpass.getpass("%s's password: " % username)
+        password = ""#getpass.getpass("%s's password: " % username)
         msg = MIMEText('checking mail')
         msg.set_unixfrom('dip patel')
         msg['To'] = email.utils.formataddr(('Recipient', to_email))
